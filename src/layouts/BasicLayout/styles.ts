@@ -1,11 +1,16 @@
 import styled from 'styled-components';
+import { devices } from '../../styles';
 
 export const HeaderStyled = styled.div``;
 
 export const WrapperStyled = styled.div`
   margin: 0 auto;
   max-width: 800px;
-  padding-top: 16rem;
+  padding: 4rem 2rem 2rem;
+
+  @media ${devices.tablet} {
+    padding-top: 16rem;
+  }
 
   h1 {
     font-size: 3rem;
@@ -15,6 +20,7 @@ export const WrapperStyled = styled.div`
   p {
     font-size: 2rem;
     margin-top: 4rem;
+    line-height: 1.5;
   }
 `;
 

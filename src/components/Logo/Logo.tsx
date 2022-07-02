@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { LogoWrapper } from './style';
+import { LogoStyled } from './style';
 
 export function Logo(): React.ReactElement {
-  return <LogoWrapper>imbrn</LogoWrapper>;
+  return <LogoStyled>imbrn</LogoStyled>;
 }

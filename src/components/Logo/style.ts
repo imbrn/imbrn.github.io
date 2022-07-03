@@ -12,5 +12,5 @@ export const LogoStyled = styled.div`
     var(--color-primary) 0%,
     var(--color-secondary) 100%
   );
-  color: var(--color-text);
+  color: var(--color-background);
 `;

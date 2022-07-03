@@ -9,6 +9,10 @@ export const GlobalStyle = createGlobalStyle`
     --color-foreground: #f2f2f2;
     --color-text: #fff;
     --font-sans-serif: 'Open Sans', sans-serif;
+    --next--color-primary: #00ff5f;
+    --v8n--color-primary: #4caf50;
+    --blog--color-primary: #59f879;
+    --twitter--color-primary: #1a8cd8;
   }
 
   html {
@@ -18,5 +22,9 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
+  }
+
+  a {
+    color: inherit;
   }
 `;

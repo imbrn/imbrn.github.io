@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import * as React from 'react';
+import { SocialLink } from '../components/SocialLink';
 import { BasicLayout } from '../layouts';
 
 export default function IndexPage() {
@@ -9,41 +10,30 @@ export default function IndexPage() {
 
       <p>
         Currently, I’m working at{' '}
-        <b style={{ color: 'var(--next--color-primary)' }}>
-          <Link to="https://next.me" target="_blank" rel="noopener noreferrer">
-            Banco next
-          </Link>{' '}
-        </b>
+        <SocialLink color="var(--next--color-primary)" href="https://next.me">
+          Banco next
+        </SocialLink>
         and on open-source projects. I’ve created{' '}
-        <b style={{ color: 'var(--v8n--color-primary)' }}>
-          <Link
-            to="https://github.com/imbrn/v8n"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            v8n
-          </Link>
-        </b>
+        <SocialLink
+          color="var(--v8n--color-primary)"
+          href="https://github.com/imbrn/v8n"
+        >
+          v8n
+        </SocialLink>
         , a fluent javascript validation library. I’m also an aspiring{' '}
-        <b style={{ color: 'var(--blog--color-primary)' }}>
-          <Link
-            to="https://imbrn.dev/blog"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            blog writer
-          </Link>
-        </b>
+        <SocialLink
+          color="var(--blog--color-primary)"
+          href="https://imbrn.dev/blog"
+        >
+          blog writer
+        </SocialLink>
         . Sometimes I write my thoughts on{' '}
-        <b style={{ color: 'var(--twitter--color-primary)' }}>
-          <Link
-            to="https://twitter.com/bruno02221"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </Link>
-        </b>
+        <SocialLink
+          color="var(--twitter--color-primary)"
+          href="https://twitter.com/bruno02221"
+        >
+          Twitter
+        </SocialLink>
         .
       </p>
 

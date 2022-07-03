@@ -25,7 +25,7 @@ export const WrapperStyled = styled.div`
 `;
 
 export const TopLineStyled = styled.div`
-  height: 0.8rem;
+  height: 0.4rem;
   width: 100%;
   background: linear-gradient(
     90deg,

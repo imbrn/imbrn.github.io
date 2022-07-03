@@ -24,6 +24,16 @@ export const WrapperStyled = styled.div`
   }
 `;
 
+export const TopLineStyled = styled.div`
+  height: 0.8rem;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  ); ;
+`;
+
 export const ChildrenWrapperStyled = styled.div`
   padding-top: 4rem;
 `;

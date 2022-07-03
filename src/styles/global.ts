@@ -7,6 +7,8 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --color-background: #0C0C0C;
     --color-foreground: #f2f2f2;
+    --color-primary: #00FF33;
+    --color-secondary: #0099FF;
     --color-text: #fff;
     --font-sans-serif: 'Open Sans', sans-serif;
     --radius-small: 6px;

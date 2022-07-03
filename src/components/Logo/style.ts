@@ -7,6 +7,10 @@ export const LogoStyled = styled.div`
   font-size: 36px;
   font-weight: 700;
   padding: 1.8rem 3rem;
-  background-color: var(--color-text);
-  color: var(--color-background);
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  color: var(--color-text);
 `;

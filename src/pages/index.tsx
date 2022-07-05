@@ -27,7 +27,7 @@ export default function IndexPage() {
         >
           blog writer
         </SocialLink>
-        . Sometimes I write my thoughts on{' '}
+        . Sometimes I share my thoughts on{' '}
         <SocialLink
           color="var(--twitter--color-primary)"
           href="https://twitter.com/bruno02221"
